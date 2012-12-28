@@ -1,0 +1,213 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: H.-Peter Pfeufer <info@ppfeufer.de>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: social-profiles-sidebar-widget.php:120
+#: social-profiles-sidebar-widget.php:127
+#@ social-profiles-sidebar-widget
+msgid "The Social Profiles Sidebar"
+msgstr "The Social Profiles Sidebar"
+
+#: social-profiles-sidebar-widget.php:191
+#@ social-profiles-sidebar-widget
+msgid "Title:"
+msgstr "Titel:"
+
+#: social-profiles-sidebar-widget.php:196
+#@ social-profiles-sidebar-widget
+msgid "Iconset:"
+msgstr "Iconset:"
+
+#: social-profiles-sidebar-widget.php:197
+#@ social-profiles-sidebar-widget
+msgid "Please choose an iconset and type in your profilelinks."
+msgstr "Wähle bitte ein Iconset und trage Deine Links ein."
+
+#: social-profiles-sidebar-widget.php:199
+#: social-profiles-sidebar-widget.php:270
+#@ social-profiles-sidebar-widget
+msgid "Your choice"
+msgstr "Auswahl"
+
+#: social-profiles-sidebar-widget.php:222
+#@ social-profiles-sidebar-widget
+msgid "Selected iconset:"
+msgstr "Gewähltes Iconset:"
+
+#: social-profiles-sidebar-widget.php:228
+#: social-profiles-sidebar-widget.php:230
+#@ social-profiles-sidebar-widget
+msgid "Selected iconset"
+msgstr "Gewähltes Iconset"
+
+#: social-profiles-sidebar-widget.php:234
+#: social-profiles-sidebar-widget.php:236
+#@ social-profiles-sidebar-widget
+msgid "Author"
+msgstr "Autor"
+
+#: social-profiles-sidebar-widget.php:240
+#@ social-profiles-sidebar-widget
+msgid "Like this set? Support the author."
+msgstr "Dir gefällt das Set? Unterstütze den Designer."
+
+#: social-profiles-sidebar-widget.php:259
+#@ social-profiles-sidebar-widget
+msgid "Iconsize:"
+msgstr "Icongröße:"
+
+#: social-profiles-sidebar-widget.php:326
+#@ social-profiles-sidebar-widget
+msgid "My Profiles:"
+msgstr "Meine Profile:"
+
+#: social-profiles-sidebar-widget.php:372
+#@ social-profiles-sidebar-widget
+msgid "Like this Plugin? Support the developer."
+msgstr "Dir gefällt dieses Plugin? Unterstütze den Entwickler."
+
+#: social-profiles-sidebar-widget.php:570
+#@ social-profiles-sidebar-widget
+msgid "Widget has to be configured properly"
+msgstr "Das Widget muss noch eingerichtet werden."
+
+#: social-profiles-sidebar-widget.php:573
+#@ social-profiles-sidebar-widget
+msgid "No iconset selected"
+msgstr "Kein Iconset ausgewählt."
+
+#: social-profiles-sidebar-widget.php:575
+#@ social-profiles-sidebar-widget
+msgid "No iconsize selected"
+msgstr "Keine Icongröße ausgewählt."
+
+#: social-profiles-sidebar-widget.php:220
+#@ social-profiles-sidebar-widget
+msgid "Please select an iconset !!!"
+msgstr "Bitte ein Iconset auswählen."
+
+#: social-profiles-sidebar-widget.php:299
+#@ social-profiles-sidebar-widget
+msgid "Supported Profiles:"
+msgstr "Unterstützte Profile:"
+
+#: social-profiles-sidebar-widget.php:293
+#@ social-profiles-sidebar-widget
+msgid "Please select an iconsize !!!"
+msgstr "Bitte die Icongröße auswählen."
+
+#: social-profiles-sidebar-widget.php:342
+#@ social-profiles-sidebar-widget
+msgid "Other options:"
+msgstr "Weitere Optionen:"
+
+#: social-profiles-sidebar-widget.php:351
+#@ social-profiles-sidebar-widget
+msgid "left"
+msgstr "links"
+
+#: social-profiles-sidebar-widget.php:355
+#@ social-profiles-sidebar-widget
+msgid "center"
+msgstr "zentriert"
+
+#: social-profiles-sidebar-widget.php:359
+#@ social-profiles-sidebar-widget
+msgid "right"
+msgstr "rechts"
+
+#: social-profiles-sidebar-widget.php:344
+#@ social-profiles-sidebar-widget
+msgid "Linkrelation"
+msgstr "Linkbeziehung"
+
+#: social-profiles-sidebar-widget.php:347
+#@ social-profiles-sidebar-widget
+msgid "Iconposition"
+msgstr "Iconposition"
+
+#: social-profiles-sidebar-widget.php:343
+#@ social-profiles-sidebar-widget
+msgid "Open link in"
+msgstr "Öffne Link in"
+
+#: social-profiles-sidebar-widget.php:343
+#@ social-profiles-sidebar-widget
+msgid "new window"
+msgstr "neuem Fenster"
+
+#: social-profiles-sidebar-widget.php:344
+#@ social-profiles-sidebar-widget
+msgid "rel=\"nofollow\""
+msgstr "rel=\"nofollow\""
+
+#: social-profiles-sidebar-widget.php:277
+#@ social-profiles-sidebar-widget
+msgid " Pixel"
+msgstr "Pixel"
+
+#: social-profiles-sidebar-widget.php:334
+#@ social-profiles-sidebar-widget
+msgid "Linktext:"
+msgstr "Linktext:"
+
+#: social-profiles-sidebar-widget.php:303
+#@ social-profiles-sidebar-widget
+msgid "You selected the 16px iconsize.<br />The icons will be shown in a list among each other with a link beside. You have to enter a linktext for each of your profiles.<br />And, it should be styled via CSS at your own.<br /><code>span.social-profiles-sidebar-profileicon {}</code><br /><code>span.social-profiles-sidebar-linktext {}</code>"
+msgstr "Du hast die Größe 16px gewählt.<br />Die Icons werden als Liste untereinandern mit einem Link daneben angezeigt. Du solltest also für jedes Deiner Profile auch einen Linktext angeben.<br />Eventuell musst Du das noch per CSS anpassen.<br /><code>span.social-profiles-sidebar-profileicon {}</code><br /><code>span.social-profiles-sidebar-linktext {}</code>"
+
+#: social-profiles-sidebar-widget.php:214
+#, php-format
+#@ social-profiles-sidebar-widget
+msgid "Feel free to %s more Iconsets"
+msgstr "Weitere Iconsets stehen zum %s bereit"
+
+#: social-profiles-sidebar-widget.php:214
+#@ social-profiles-sidebar-widget
+msgid "download"
+msgstr "Download"
+
+#: social-profiles-sidebar-widget.php:247
+#: social-profiles-sidebar-widget.php:249
+#@ social-profiles-sidebar-widget
+msgid "this iconset"
+msgstr "dieses Iconset"
+
+#: social-profiles-sidebar-widget.php:253
+#@ social-profiles-sidebar-widget
+msgid "Info:"
+msgstr "Hinweis:"
+
+#: social-profiles-sidebar-widget.php:254
+#, php-format
+#@ social-profiles-sidebar-widget
+msgid "This is an <strong>additional</strong> iconset.<br />You have to reinstall %s after you update the plugin."
+msgstr "Dies ist ein <strong>zusätzliches</strong> Iconset.<br />Nach einem Update des Plugins musst Du %s neu installieren."
+
+#: social-profiles-sidebar-widget.php:333
+#@ social-profiles-sidebar-widget
+msgid "Link:"
+msgstr "Link:"
+
+#: social-profiles-sidebar-widget.php:335
+#@ social-profiles-sidebar-widget
+msgid "Position:"
+msgstr "Position:"
+

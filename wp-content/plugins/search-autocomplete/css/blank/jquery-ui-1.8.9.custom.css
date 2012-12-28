@@ -1,0 +1,6 @@
+.ui-autocomplete { position: absolute; cursor: default; background: #fff; margin: -1px 0 0 -1px; border: 1px solid #000; }	
+.ui-autocomplete .ui-menu-item a { display: block; padding: 3px 12px; font-size: 12px; }
+.ui-autocomplete .ui-menu-item a:hover { background: #eee; }
+
+/* workarounds */
+* html .ui-autocomplete { width:1px; } /* without this, the menu expands to 100% in IE6 */

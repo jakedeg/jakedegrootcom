@@ -1,0 +1,482 @@
+/*
+Theme Name: Viewport
+Theme URI: http://labs.paulicio.us/viewport/
+Description: A clean, image based layout
+Version: 1.0
+Author: Paul Bennett
+Author URI: http://paulicio.us
+Tags: pictures, images, simple, clean, viewport
+*/
+
+* {margin:0; padding:0;}
+
+body {
+	background: #efefef;
+	font-family: "Lucida Grande", Tahoma, "Trebuchet MS";
+	font-size: 62.5%;
+	color: #272727;
+}
+
+a:link, a:visited {
+	color: #272727;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #272727;
+	text-decoration: underline;
+}
+
+ul {
+	list-style: circle;
+}
+
+img {
+	border: none;
+}
+
+label {
+	margin-left: 10px;
+}
+
+blockquote {
+	margin: 0px 5px 10px 5px;
+	padding: 10px 10px 1px 10px;
+	font-style: italic;
+	border: 1px solid #ddd;
+	background-color: #f3f3f3;
+}
+
+span.left { float: left; }
+span.right { float: right; }
+
+.clearer { clear: both; }
+
+.aligncenter,
+div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.alignleft {
+   float: left;
+}
+
+.alignright {
+   float: right;
+}
+
+.wp-caption {
+   border: 1px solid #ddd;
+   text-align: center;
+   background-color: #f3f3f3;
+   padding-top: 4px;
+   margin: 10px;
+}
+
+.wp-caption img {
+   margin: 0;
+   padding: 0;
+   border: 0 none;
+}
+
+.wp-caption p.wp-caption-text {
+   font-size: 11px;
+   line-height: 17px;
+   padding: 4px 5px 0 5px;
+   margin: 0;
+}
+
+#page {
+	min-width: 950px;
+	max-width: 1100px;
+	margin: 0px auto;
+	position: relative;
+}
+
+#header {
+	width: 940px;
+	height: 100px;
+	margin: 0px auto;
+	padding-bottom: 10px;
+}
+
+#header h1 {
+	padding: 30px 0 16px 0;
+	font-family: Georgia;
+	font-size: 3.2em;
+}
+
+#nav {
+	width: 500px;
+	float: left;
+	font-size: 1.2em;
+	text-transform: lowercase;
+}
+
+#nav li {
+	display: inline;
+	float: left;
+	padding: 10px 6px;
+	list-style: none;
+	background: transparent url(images/navbar/mid.png) repeat-x 0 0;
+}
+
+#nav .subscribe {
+	padding-right: 20px;
+	background: transparent url(images/rss.png) no-repeat 100% 50%;
+}
+
+#nav li.left {
+	height: 36px;
+	width: 15px;
+	padding: 0;
+	background: transparent url(images/navbar/left.png) no-repeat 0 0;
+}
+
+#nav li.right {
+	height: 36px;
+	width: 15px;
+	padding: 0;
+	background: transparent url(images/navbar/right.png) no-repeat 0 0;
+}
+
+#searchbox {
+	width: 285px;
+	margin-top: 4px;
+	float: right;
+}
+
+#searchbox li {
+	width: 285px;
+	height: 26px;
+	background: transparent url(images/search.png) no-repeat 0 0;
+	list-style: none;
+}
+
+#searchbox input {
+	width: 270px;
+	background: none;
+	border: none;
+	padding: 6px 8px 6px 8px;
+	color: #efefef;
+	font-size: 1.2em;
+}
+
+#mid {
+	width: 100%;
+	padding-bottom: 20px;
+	margin-top: 10px;
+}
+
+#mid.index {
+	background: transparent url(images/indexbg.png) no-repeat 50% 0;
+}
+
+#mid.single {
+	background: transparent url(images/singlebg.png) no-repeat 50% 0;
+}
+
+#mid.archive {
+	background: none;
+}
+
+.panel, .panel-single {
+	font-family: Georgia;
+	color: #efefef;
+	position: relative; 
+	display: block; 
+	width: 940px;
+	height: 600px;
+}
+
+.panel-single {
+	height: 300px;
+	margin: 0px auto;
+	padding-top: 10px;
+}
+
+.wrapper-archive {
+	width: 270px;
+	height: 240px;
+	padding: 10px;
+	margin: 0 10px 10px 10px;
+	background: transparent url(images/archivebg.png) no-repeat 0 0;
+	display: block;
+	position: relative;
+	float: left;
+}
+
+.wrapper-archive .post-title {
+	max-width: 220px;
+	font-size: 1.4em;
+}
+
+.post-title, .post-title-single {
+	max-width: 870px;
+	padding: 15px;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	z-index: 100;
+	background: transparent url(images/titlebg.png) repeat 0 0;
+	font-size: 4em;
+	font-weight: normal;
+}
+
+.post-title a, .post-title-single a, .entry a {
+	color: #efefef;
+	text-decoration: none;
+}
+
+.post-title-single {
+	top: 30px;
+}
+
+.entry {
+	max-width: 440px;
+	padding: 15px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+	z-index: 100;
+	background: transparent url(images/titlebg.png) repeat 0 0;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+
+.entry ul {
+	margin: 5px 0 10px 0;
+}
+
+.entry li {
+	padding: 5px 0 7px 0;
+	border-bottom: 1px solid #3b3b3b;
+	list-style: none;
+}
+
+.entry a:hover {
+	color: #c6c6c6;
+}
+
+.entry .big {
+	font-size: 2em;
+}
+
+.entry .rss-big {
+	padding-right: 24px;
+	background: transparent url(images/rss.png) no-repeat 100% 60%;
+}
+
+.content-top {
+	height: 15px;
+	width: 600px;
+	background: transparent url(images/content/top.png) no-repeat 0 0;
+}
+
+.content-mid {
+	width: 560px;
+	padding: 0 20px;
+	background: transparent url(images/content/mid.png) repeat-y 0 0;
+}
+
+.content-bottom {
+	height: 15px;
+	width: 600px;
+	background: transparent url(images/content/bottom.png) no-repeat 0 0;
+}
+
+.postmetadata {
+	padding-bottom: 10px;
+	margin-bottom: 5px;
+	line-height: 1.5em;
+}
+
+.postmetadata-archive {
+	width: 100%;
+	height: 58px;
+	padding-top: 10px;
+	font-family: "Lucida Grande", Tahoma, "Trebuchet MS";
+	color: #272727;
+	line-height: 1.5em;
+}
+
+#thepost {
+	margin-bottom: 15px;
+}
+
+#content {
+	width: 940px;
+	margin: 0px auto;
+	font-size: 1.2em;
+}
+
+#narrow-column {
+	width: 600px;
+	float: left;
+}
+
+#narrow-column p, #narrow-column h3 {
+	padding-bottom: 10px;
+}
+
+#narrow-column p a {
+	font-weight: bold;
+	color: #594e7a;
+}
+
+#narrow-column ul {
+	margin: 0 0 10px 20px;
+}
+
+#narrow-column input, #narrow-column textarea, #narrow-column submit {
+	padding: 6px;
+	border: 1px solid #c6c6c6;
+}
+
+#narrow-column #submit:hover {
+	background-color: #333;
+	color: #efefef;
+}
+
+#narrow-column textarea {
+	width: 545px;
+}
+
+.commentlist {
+	list-style: none;
+	margin-bottom: 10px;
+}
+
+.commentlist span.left a {
+	font-weight: bold;
+}
+
+.commentlist span.right a {
+	font-size: 0.8em;
+	color: #9e9e9e;
+}
+
+.comment-top {
+	width: 540px;
+	height: 25px;
+	padding: 10px;
+	padding-bottom: 0;
+	background: #fff url(images/comments/head.png) no-repeat 0 0;
+}
+
+.comment-mid {
+	width: 540px;
+	padding: 15px 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid #c6c6c6;
+}
+
+.comment-bottom {
+	width: 590px;
+	height: 10px;
+	background: #fff url(images/comments/bottom.png) no-repeat 0 0;
+}
+
+.commentmetadata {
+	font-size: 0.8em;
+}
+
+#sidebar {
+	width: 300px;
+	line-height: 1.5em;
+	float: right;
+}
+
+.sidebar-top {
+	height: 15px;
+	width: 300px;
+	background: transparent url(images/sidebar/top.png) no-repeat 0 0;
+}
+
+.sidebar-mid {
+	width: 260px;
+	padding: 0 20px;
+	background: transparent url(images/sidebar/mid.png) repeat-y 0 0;
+}
+
+.sidebar-bottom {
+	height: 15px;
+	width: 300px;
+	background: transparent url(images/sidebar/bottom.png) no-repeat 0 0;
+}
+
+#sidebar li {
+	list-style: none;
+}
+
+#sidebar h2 {
+	margin: 10px 0;
+	padding-top: 10px;
+	border-top: 1px solid #c6c6c6;
+}
+
+#footer {
+	width: 940px;
+	margin: 0px auto;
+	padding-bottom: 10px;
+	text-align: right;
+	font-size: 0.9em;
+	color: #9e9e9e;
+}
+
+#footer a {
+	color: #9e9e9e;
+}
+
+#footer a.valid {
+	padding-left: 16px;
+	background: transparent url(images/tick.png) no-repeat 0% 50%;
+}
+
+#footer a.valid:hover {
+	background: transparent url(images/tick-hover.png) no-repeat 0% 50%;
+}
+
+/* Coda Slider
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
+/* These 2 lines specify style applied while slider is loading */
+.csw {width: 100%; height: 600px; overflow: hidden}
+.csw .loading {margin: 0; text-align: center}
+
+.stripViewer { /* This is the viewing window */
+	position: relative;
+	overflow: hidden;
+	clear: both;
+	width: 940px;
+	height: 600px;
+	margin: 0px auto;
+	padding-top: 5px;
+	
+}
+
+.stripViewer .panelContainer { /* This is the big long container used to house your end-to-end divs. Width is calculated and specified by the JS  */
+	position: relative;
+	left: 0; top: 0;
+	width: 100%;
+	/* -moz-user-select: none; // This breaks CSS validation but stops accidental (and intentional - beware) panel highlighting in Firefox. Some people might find this useful, crazy fools. */
+}
+
+.stripViewer .panelContainer .panel { /* Each panel is arranged end-to-end */
+	float:left;
+	height: 600px;
+	position: relative;
+	width: 940px; /* Also specified in  .stripViewer  above */
+}
+
+.stripNavL, .stripNavR {
+	position: relative;
+	top: -360px;
+	z-index: 200;
+}
+
+.stripNavL { float: left; }
+
+.stripNavR { float: right; }
