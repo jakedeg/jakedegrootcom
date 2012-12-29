@@ -8,14 +8,6 @@
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS Feed" href="<?php bloginfo('rss2_url'); ?>" />
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
 
-	<script src=<?php get_template_directory_uri(); ?>"/wp-content/themes/jdgviewport/js/jquery-1.8.2.min.js"></script>
-	<script src=<?php get_template_directory_uri(); ?>"/wp-content/themes/jdgviewport/js/jquery-ui-1.8.20.custom.min.js"></script>
-
- 
-	<script src=<?php get_template_directory_uri(); ?>"/wp-content/themes/jdgviewport/js/jquery.liquid-slider-1.1.min.js"></script> 
-
-	<link rel="stylesheet" type="text/css" media="screen" href=<?php get_template_directory_uri(); ?>"/wp-content/themes/jdgviewport/liquid-slider-1.1.css">
-
     <script>
     jQuery(function(){
       jQuery('#ls1').liquidSlider({

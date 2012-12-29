@@ -90,6 +90,34 @@ function display_message($message) {
 	
 }
 
+//Functions for loading jQuery for Liquid Slider
+
+function my_jquery_enqueue() {
+   wp_deregister_script('jquery');
+   wp_register_script('jquery', "http" . ($_SERVER['SERVER_PORT'] == 443 ? "s" : "") . "://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js", false, null);
+   wp_enqueue_script('jquery');
+}
+
+// Load Liquid Slider scripts
+function kb_scripts_method() {
+    wp_register_script( 'jqueryUI', get_template_directory_uri() . '/js/jquery-ui-1.8.20.custom.min.js');
+    wp_enqueue_script( 'jqueryUI' );
+    wp_register_script( 'liquid-slider', get_template_directory_uri() . '/js/jquery.liquid-slider-1.1.min.js');
+    wp_enqueue_script( 'liquid-slider' );
+    wp_register_style( 'css', get_template_directory_uri() . '/liquid-slider-1.1.css');
+    wp_enqueue_style( 'css' );
+// Add more here
+}     
+
+if (!is_admin()) {
+
+// Notice the numbers at the end? 11 will load before 15, etc
+
+    add_action("wp_enqueue_scripts", "my_jquery_enqueue", 11);
+    add_action('wp_enqueue_scripts', 'kb_scripts_method', 15);
+}
+
+
 
 //Functions for Kalin's Post Lists
 
