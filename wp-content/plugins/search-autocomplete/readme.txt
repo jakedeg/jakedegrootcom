@@ -3,8 +3,8 @@ Contributors: hereswhatidid
 Donate link: http://hereswhatidid.com/contact/
 Tags: jquery autocomplete, jquery ui, themeroller, search, autocomplete, ajax
 Requires at least: 3.x
-Tested up to: 3.2.0
-Stable tag: 1.0.9
+Tested up to: 3.5.0
+Stable tag: 2.0.0
 
 SearchAutocomplete implements the jQuery UI Autocomplete functionality on your Wordpress installation. 
 
@@ -13,7 +13,8 @@ SearchAutocomplete implements the jQuery UI Autocomplete functionality on your W
 SearchAutocomplete implements the jQuery UI Autocomplete functionality on your Wordpress installation. It provides several basic options such as:
 
 * jQuery ThemeRoller integration
-* Generic field selection. Any valid jQuery selector can be used to pick the search field
+* Generic field selection. Any valid CSS selector can be used to pick the search field
+* Custom Post Type and Taxonomy support
 * Minimum character count
 * Hotlink resulting Post/Page titles directly to their respective items
 
@@ -42,7 +43,7 @@ If you have any questions or comments <a href="http://hereswhatidid.com">please 
 This section describes how to install the plugin and get it working.
 
 1. Download the plugin from the <a href="http://wordpress.org/extend/plugins/search-autocomplete/">Wordpress repository</a>
-2. Upload `searchautocomplete` to the `/wp-content/plugins/` directory
+2. Upload `search-autocomplete` to the `/wp-content/plugins/` directory
 3. Activate the plugin through the 'Plugins' menu in WordPress
 4. {Optional} If you want to add aditional themes to the settings, create the theme with the <a href="http://jqueryui.com/themeroller/">jQuery UI ThemeRoller</a> and upload the resulting "/css/" directory to the "/css/" of this plugins installed directory.
 
@@ -55,6 +56,11 @@ Yes, but it's recommended that you create a copy of the theme that you are going
 Please <a href="http://hereswhatidid.com/contact/">contact the author</a> for support. Thanks!
 
 == Change log ==
+
+= 2.0.0 - 29 Dev 2012
+* Complete overhaul to use the built-in WordPress AJAX methods
+* Added support for custom post types
+* Added support for custom taxonomies
 
 = 1.0.9 - 28 May 2011
 * Fixed potential SQL injection point.

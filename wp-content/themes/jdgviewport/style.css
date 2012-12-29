@@ -234,7 +234,7 @@ DESCRIPTION: Single column with credits block on top and gallery below.
 #credits td{
 	height: 90px;
 	width: 33%;
-	vertical-align:middle;
+	vertical-align: top;
 }
 
 #excerpt{

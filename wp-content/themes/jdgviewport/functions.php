@@ -90,11 +90,6 @@ function display_message($message) {
 	
 }
 
-//Load jQuery
-function insert_jquery(){
-   wp_enqueue_script('jquery');
-}
-add_filter('wp_enqueue_scripts','insert_jquery');
 
 //Functions for Kalin's Post Lists
 
